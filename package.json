@@ -1,6 +1,6 @@
 {
 	"name": "vbb-stations-t9",
-	"description": "T9 search (search via telephone keyboard) for VBB stations.",
+	"description": "T9 search (search via telephone keyboard) for VBB public transport stations.",
 	"version": "0.0.0",
 	"keywords": [
 		"t9",

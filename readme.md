@@ -1,6 +1,6 @@
 # vbb-stations-t9
 
-T9 search (search via telephone keyboard) for VBB stations.
+T9 search (search via telephone keyboard) for [VBB](https://www.vbb.de) public transport stations.
 
 [![npm version](https://img.shields.io/npm/v/vbb-stations-t9.svg)](https://www.npmjs.com/package/vbb-stations-t9)
 [![Build status](https://travis-ci.org/juliuste/vbb-stations-t9.svg?branch=master)](https://travis-ci.org/juliuste/vbb-stations-t9)
