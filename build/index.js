@@ -53,6 +53,7 @@ const {
 
 console.info('Writing the index to disk.')
 
+fs.mkdirSync(path.join(__dirname, '../indices'), { recursive: true })
 writeJSON('../indices/original-ids.json', originalIds)
 writeJSON('../indices/tokens.json', tokens)
 writeJSON('../indices/scores.json', scores)
