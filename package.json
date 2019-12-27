@@ -1,6 +1,6 @@
 {
 	"name": "vbb-stations-t9",
-	"description": "T9 search for VBB stations",
+	"description": "T9 search (search via telephone keyboard) for VBB stations.",
 	"version": "0.0.0",
 	"keywords": [
 		"t9",
@@ -20,6 +20,7 @@
 		"indices"
 	],
 	"devDependencies": {
+		"cli-autocomplete": "^0.4.3",
 		"db-clean-station-name": "^1.2.0",
 		"depcheck": "^0.9.1",
 		"eslint": "^6.8.0",
@@ -28,18 +29,26 @@
 		"eslint-plugin-node": "^11.0.0",
 		"eslint-plugin-promise": "^4.2.1",
 		"eslint-plugin-standard": "^4.0.1",
-		"tape": "^4.12.1"
+		"tape": "^4.12.1",
+		"vbb-common-places": "^1.1.0",
+		"vbb-stations": "^7.1.0"
 	},
 	"scripts": {
 		"build": "node build",
 		"check-deps": "depcheck",
-		"lint": "eslint lib build test.js",
-		"fix": "eslint --fix lib build test.js",
+		"lint": "eslint lib build example.js test.js",
+		"fix": "eslint --fix lib build example.js test.js",
 		"prepublishOnly": "npm run build && npm test",
 		"test": "npm run lint && npm run check-deps && npm run build && node test"
 	},
 	"engines": {
 		"node": ">=10"
 	},
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"lodash": "^4.17.15",
+		"synchronous-autocomplete": "^2.3.0",
+		"telephone-keypads": "0.0.0",
+		"vbb-tokenize-station": "^0.3.0"
+	}
 }
