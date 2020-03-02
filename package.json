@@ -29,7 +29,7 @@
 		"eslint-plugin-node": "^11.0.0",
 		"eslint-plugin-promise": "^4.2.1",
 		"eslint-plugin-standard": "^4.0.1",
-		"tape": "^4.12.1",
+		"tape": "^4.13.2",
 		"vbb-common-places": "^1.1.0",
 		"vbb-stations": "^7.1.0"
 	},
