@@ -31,7 +31,7 @@
 		"eslint-plugin-standard": "^4.0.1",
 		"tape": "^4.12.1",
 		"vbb-common-places": "^1.1.0",
-		"vbb-stations": "^7.1.0"
+		"vbb-stations": "^7.3.0"
 	},
 	"scripts": {
 		"build": "node build",
